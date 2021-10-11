@@ -1,0 +1,72 @@
+@import 'config';
+.footer{
+    background: #F8F8F8;
+    margin-top: 300px;
+    padding: 180px 150px 100px;
+    display: flex;
+    #{&}__info{
+        width: 340px;
+        margin-right: 230px;
+        & .footer__name{
+            display: flex;
+            align-items: center;
+            & img{
+                margin-right: 10px;
+            }
+            & .page__name{
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+        & .page__review{
+            margin-top: 26px;
+            color: $text-color;
+            & span{
+                font-weight: bold;
+            }
+        }
+        & .page__contact{
+            margin-top: 30px;
+            & i{
+                color: $primary-color;
+                background: white;
+                width: 40.6px;
+                height: 40.6px;
+                padding: 10px;
+                border-radius: 50px;
+                margin-right: 20px;
+            }
+        }
+        & .page__author{
+            display: inline-block;
+            margin-top: 30px;
+            color: $text-color;
+            line-height: 30px;
+        }
+    }
+    #{&}__right{
+        display: flex;
+        justify-content: space-between;
+        & .footer__column{
+            display: flex;
+            flex-direction: column;
+            margin-right: 100px;
+            &:nth-last-child(1){
+                margin-right: 0px;
+            }
+            & .footer__column-title{
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+            & .footer__column-item{
+                color: $text-color;
+                margin-bottom: 10px;
+                &:hover{
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

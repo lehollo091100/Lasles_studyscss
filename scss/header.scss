@@ -1,0 +1,48 @@
+@import 'config';
+.header{
+    margin-top: 45px;
+    &__wrapper{
+        margin:0 150px;
+        @include flex__justi-center
+    }
+    & .header__left{
+        @include flex__justi-center;
+        & img{
+            width: 35px;
+            height: 36.23px;
+        }
+        & h4{
+            font-size: 20px;
+        }
+    }
+    & .header__middle{
+        & .header__list{
+            @include flex__justi-center;
+            & .header__list-item{
+                margin-right: 40px;
+                font-size: 16px;
+                color: rgba(101, 79, 87, 1);
+                cursor: pointer;
+            }
+        }
+    }
+    & .header__right{
+        font-size: 16px;
+        @include flex__justi-center;
+        & span{
+            font-weight: 600;
+            line-height: 19px;
+            cursor: pointer;
+        }
+        & .signin__button{
+            margin-right: 30px;
+        }
+        & .sigup__button{
+            padding: 13px 45px;
+            border: 1px $primary-color solid;
+            color: $primary-color;
+            border-radius: 50px;
+        }
+    }
+
+}

@@ -1,0 +1,24 @@
+@import './config.scss';
+@import 'header';
+@import 'start';
+@import 'features';
+@import 'plan';
+@import 'network';
+@import 'customer';
+@import 'footer';
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: 'Rubik';
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+
+}

@@ -1,0 +1,58 @@
+.features {
+  margin: 0 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 92px;
+  margin-bottom: 132px;
+}
+
+.features .features__left {
+  width: 508.12px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.features .features__right {
+  width: 428px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.features .features__right > div {
+  margin-bottom: 20px;
+}
+
+.features .features__right .features__right-title {
+  font-size: 35px;
+}
+
+.features .features__right .features__right-detail {
+  font-size: 16px;
+  color: #4f5665;
+}
+
+.features .features__right .features__right-item {
+  margin-bottom: 15px;
+}
+
+.features .features__right .features__right-item i {
+  color: green;
+}
+
+.features .features__right .features__right-item span {
+  color: #4f5665;
+  font-size: 14px;
+}
+/*# sourceMappingURL=features.css.map */

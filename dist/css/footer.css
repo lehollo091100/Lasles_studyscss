@@ -1,0 +1,102 @@
+.footer {
+  background: #F8F8F8;
+  margin-top: 300px;
+  padding: 180px 150px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer__info {
+  width: 340px;
+  margin-right: 230px;
+}
+
+.footer .footer__info .footer__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer__info .footer__name img {
+  margin-right: 10px;
+}
+
+.footer .footer__info .footer__name .page__name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer .footer__info .page__review {
+  margin-top: 26px;
+  color: #4f5665;
+}
+
+.footer .footer__info .page__review span {
+  font-weight: bold;
+}
+
+.footer .footer__info .page__contact {
+  margin-top: 30px;
+}
+
+.footer .footer__info .page__contact i {
+  color: #F53838;
+  background: white;
+  width: 40.6px;
+  height: 40.6px;
+  padding: 10px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+.footer .footer__info .page__author {
+  display: inline-block;
+  margin-top: 30px;
+  color: #4f5665;
+  line-height: 30px;
+}
+
+.footer .footer__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer__right .footer__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 100px;
+}
+
+.footer .footer__right .footer__column:nth-last-child(1) {
+  margin-right: 0px;
+}
+
+.footer .footer__right .footer__column .footer__column-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer .footer__right .footer__column .footer__column-item {
+  color: #4f5665;
+  margin-bottom: 10px;
+}
+
+.footer .footer__right .footer__column .footer__column-item:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=footer.css.map */

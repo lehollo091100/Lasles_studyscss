@@ -1,0 +1,152 @@
+@import 'config';
+.customer{
+    margin-top: 50px;
+    position: relative;
+    #{&}__title{
+        @include title;
+    }
+    #{&}__description{
+        @include description   
+    }
+    #{&}__list{
+        position: relative;
+        margin-left: 150px;
+        & .customer__list-item{
+            // width: 400px;
+            height: 230px;
+            border: 2px solid #DDDDDD;
+            border-radius: 10px;
+            padding: 30px;
+            margin-right: 50px;
+            & .customer__info{
+                @include flex__justi-center;
+                & .customer__info-left{
+                    display: flex;
+                    align-items: center;
+                    & img{
+                        width: 50px;
+                        height: 50px;
+                        object-fit: cover;
+                        margin-right: 20px;
+                    }
+                    & .customer__name{
+                        font-size: 18px;
+                        font-weight: bold;
+                    }
+                    & .customer__location{
+                        font-size: 14px;
+                        color: $text-color;
+                    }
+                }
+                & .customer__info-right{
+                    font-size: 16px;
+                    margin-right: 10px;
+                    & i{
+                        color:#FEA250;
+                    }
+                }
+            }
+            & .customer__comment{
+                margin-top: 8px;
+                font-size: 16px;
+                line-height: 30px;
+            }
+        }
+    }
+    #{&}__subscribe{
+        background-color: white;
+        @include flex__justi-center;
+        border:1px solid #DDDDDD;
+        border-radius: 10px;
+        box-shadow: 0px 5px 10px black;
+        padding: 58.5px 70px;
+        position: absolute;
+        left: 150px;
+        width: 80%;
+        top:618px;
+        z-index: 2;
+        & .customer__subscribe-left{
+            & .subscribe__title{
+                @include title;
+                text-align: start;
+                margin: 0 0;
+            }
+            & .subscribe__detail{
+                @include description;
+                margin: 20px 0 0;
+                text-align: start;
+            }
+        }
+        & .customer__subscribe-right{
+            display: inline-block;
+            padding: 17.5px 65px;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 25px;
+            background: $primary-color;
+            box-shadow:0px 5px 54px rgba(245, 56, 56, 0.35);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all .2s linear;
+            &:hover{
+                background: transparent;
+                color: $primary-color;
+                border:1px solid $primary-color;
+            }
+        }
+    }
+    & .slick-arrow{
+        padding:20px;
+        cursor: pointer;
+        border-radius: 50px;
+        width: 30px;
+        height: 30px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    & .prevArrow{
+        position: absolute;
+        top: 290px;
+        right:110px;
+        border:2px solid $primary-color;
+        color:$primary-color; 
+    }
+    & .nextArrow{
+        background: $primary-color;
+        position: absolute;
+        top: 290px;
+        right:60px;
+        color: white;
+        border:2px solid transparent;
+    }
+    & .slick-dots{
+        position: absolute;
+        top: 290px;
+        left: 0;
+        height: 50px;
+        display: flex;
+        width: 50%;
+    }
+    & .slick-dots li{
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        opacity: 0.75;
+        background: #DDE0E4!important;
+        transition: all .2s linear;
+    }
+    & .slick-dots li button:before{
+        content: none;
+    }
+    & .slick-dots li.slick-active {
+        width:45px;
+        border-radius: 10px;
+        background: $primary-color!important;
+        opacity: 1;
+    }
+    .slick-dotted.slick-slider{
+        margin-bottom: 0;
+    }
+}

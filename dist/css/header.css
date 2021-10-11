@@ -1,0 +1,87 @@
+.header {
+  margin-top: 45px;
+}
+
+.header__wrapper {
+  margin: 0 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header__left img {
+  width: 35px;
+  height: 36.23px;
+}
+
+.header .header__left h4 {
+  font-size: 20px;
+}
+
+.header .header__middle .header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header__middle .header__list .header__list-item {
+  margin-right: 40px;
+  font-size: 16px;
+  color: #654f57;
+  cursor: pointer;
+}
+
+.header .header__right {
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header__right span {
+  font-weight: 600;
+  line-height: 19px;
+  cursor: pointer;
+}
+
+.header .header__right .signin__button {
+  margin-right: 30px;
+}
+
+.header .header__right .sigup__button {
+  padding: 13px 45px;
+  border: 1px #F53838 solid;
+  color: #F53838;
+  border-radius: 50px;
+}
+/*# sourceMappingURL=header.css.map */

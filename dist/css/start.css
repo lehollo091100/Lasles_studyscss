@@ -1,0 +1,106 @@
+.start {
+  margin: 0 150px;
+  margin-top: 88px;
+}
+
+.start__top {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+.start__top-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.start__top-left .start__title {
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.start__top-left .start__title span {
+  font-weight: 700;
+}
+
+.start__top-left .start__detail {
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+  margin-bottom: 20px;
+}
+
+.start__top-left .start__button {
+  width: 250px;
+  padding: 17.5px 77.5px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+  background: #F53838;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 5px 20px #F53838;
+          box-shadow: 0px 5px 20px #F53838;
+}
+
+.start__top-right {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.start__bottom {
+  display: -ms-grid;
+  display: grid;
+  padding: 37.21px 0;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  margin-top: 107px;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
+}
+
+.start__bottom .start__bottom-item {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.start__bottom .start__bottom-item:nth-child(2) {
+  border-left: 2px solid #EEEFF2;
+  border-right: 2px solid #EEEFF2;
+}
+
+.start__bottom .start__bottom-item .icon {
+  margin-right: 36.5px;
+  color: #F53838;
+}
+
+.start__bottom .start__bottom-item .icon svg {
+  width: 55px;
+  height: 55px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  background: #FFECEC;
+  border-radius: 50px;
+}
+/*# sourceMappingURL=start.css.map */

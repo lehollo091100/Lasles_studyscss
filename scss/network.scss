@@ -1,0 +1,27 @@
+@import 'config';
+.network{
+    @include container
+    margin-top: 150px;
+    text-align: center;
+    #{&}__title{
+        @include title;
+    }
+    #{&}__description{
+        @include description
+    }
+    #{&}__image{
+        width: 1060px;
+        height: 537.77px;
+        object-fit: cover;
+        margin: 95px auto 0;
+    }
+    #{&}__sponsor{
+        display: flex;
+        margin-top: 35.81px;
+        align-items: center;
+        & .network__sponsor-item{
+            width: 20%;
+
+        }
+    }
+}
